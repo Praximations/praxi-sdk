@@ -1,0 +1,20 @@
+{
+  "name": "praxi",
+  "version": "0.1.0",
+  "description": "Praxi CLI: scan a project, show what can be connected, and connect it (npx praxi connect).",
+  "license": "UNLICENSED",
+  "type": "module",
+  "bin": {
+    "praxi": "dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
